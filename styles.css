@@ -1,0 +1,88 @@
+body, html {
+    box-sizing: border-box;
+    background-image: url("images/IMG_8470.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-color: white;
+    overflow: auto;
+    height: 100%;
+    color: black; 
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-weight: normal;
+}
+
+main {
+    flex-grow: 1; /* Allow main to grow and fill space */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    padding-bottom: 60px;
+}
+
+.content {
+    flex: 1; /* Allow content to grow and fill space */
+    padding: 20px; /* Padding for content */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    padding-bottom: 60px; /* Space for fixed footer */
+}
+
+/* Navigation Bar */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* Footer */
+.footer {
+    position: sticky bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/* Icons in footer */
+a {
+    margin: 0 10px; /* Spacing between icons */
+    color: white; /* Default color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.icon {
+    font-size: 32px; /* Change to your desired size */
+}
