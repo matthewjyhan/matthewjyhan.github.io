@@ -3246,7 +3246,7 @@ input, select, textarea {
 		}
 	}
 
-	@media screen and (max-width: 1280px), (orientation: portrait) {
+	@media screen and (max-width: 1400px), (orientation: portrait) {
 		dialog{
 			padding: 0;
 			width: 80%;
