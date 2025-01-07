@@ -11,6 +11,7 @@ body, html {
     color: black; 
     display: flex;
     flex-direction: column; /* Stack elements vertically */
+    font-family: 'Times New Roman', Times, serif
 }
 
 h1, h2, h3, h4, h5, h6, h7 {
@@ -28,7 +29,6 @@ main {
     padding: 20px; /* Padding for content */
     overflow-y: auto; /* Allow scrolling if content overflows */
     padding-bottom: 60px; /* Space for fixed footer */
-
 }
 
 /* Projects section grid css */

@@ -1,57 +1,194 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<head>
-	<meta charset="UTF-8">
-	<title>Home</title>
-	<meta name="viewport" content="width=device-width,intial-scale=1">
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Import Font Awesome icons-->
-	<link rel="icon" href="images/favicon.ico" type="images/x-icon">
 
-	<script src="script.js" defer></script>
-</head>
 
-<body>
-	<!--Create navigation bar-->
-	<div class="topnav">
-		<a class="active" href="index.html">Home</a>
-		<a href="projects.html">Projects</a>
-		<a href="contact.html">Contact</a>
-		<a href="about.html">About</a>
-  	</div>
+<html>
+    <head>
+        <title>Matthew Han</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Import Font Awesome icons-->
+    </head>
 
-	<div class="content">
-		<!--Introduction-->
-		<h1><strong>Hi, I'm Matthew Han.</strong></h1>
-		<h3>CS @ Rutgers University New Brunswick | Honors College</h3>
-		
-		<hr>
 
-			<!--Short description, action statement-->
-			<p>Welcome to my portfolio page!<br></p>
+        <!-- Left Side Header -->
+         <header id="header">
+                <div class="inner">
+                    <a href="matthewjaeyounghan.github.io" class="image avatar"><img src="images/avatar.jpeg" alt=""></a>
+                    <h1><strong>Hi! I'm Matthew Han.</strong><br>
+                    CS @ Rutgers Honors College<br></h1>
+                </div>
+         </header>
 
-			
-			<p>This website is currently in its nascent stages, so be sure to check back often for updates. <br>
-			Any business inquiries can be sent through the contacts tab.</p>
-	</div>
+         <!-- Right Side Main -->
+         <div id="main">
+            
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Every day above ground is a great one.</h2>
+						</header>
+						<p>If I had to define myself in one word, it'd be "creator." 
+                            I find the most joy and motivation when I conjure an idea 
+                            from my little noggin into a physical project. 
+                            That's why I love subjects like technology, music, and videography 
+                            that let me bring my ideas to life. 
+                            I hope that in the future my ideas can change lives for the better, and
+                        	I hope that you'll join me on the journey there.</p>
+						<ul class="actions">
+							<li><a onclick="showAboutMe()" class="button">About Me</a></li>
+						</ul>
+						<dialog id="aboutMe">
+							<div class="wrapper">
+								<h2>About Me</h2>
+								<p>I'm currently a first year student majoring in Computer Science, with interests in Mathematics and Philosophy.
+									I became interested in Computer Science my senior year of high school, which nowadays is late.
+									But as F. Scott Fitzgerald said,
+									“For what it's worth, it's never too late to be whoever you want to be.
+									I hope you live a life you're proud of and if you find that you're not,
+									I hope you have the strength to start over.” </p>
 
-	<!--links to other social media pages in footer-->
-	<div class="footer">
-		<p>Other places you can find me:</p>
-			<a href="https://www.instagram.com/matthewjhan/" target="_blank" title="Instagram">
-				<i class="fa-brands fa-instagram icon"></i>
-			</a>
-			<a href="https://www.linkedin.com/in/matthewjaeyounghan/" target="_blank" title="LinkedIn">
-				<i class="fa-brands fa-linkedin icon"></i>
-			</a>
-			<a href="https://www.youtube.com/@matthewjhan/" target="_blank" title="YouTube">
-				<i class="fa-brands fa-youtube icon"></i>
-				</a>
-			<a href="https://github.com/matthewjaeyounghan/" target="_blank" title="Instagram">
-				<i class="fa-brands fa-github icon"></i>
-				</a>
-		<p>Matthew Han &#127793 matthewjaeyounghan.github.io</p>
-	</div>
+									<p>As of right now, I'm learning JavaScript, Node.js, and Express. 
+										Any CS related inquiries can be submitted to me via email found on this website!</p>
 
-</body>
+									<p>I'm also passionate about music and film, both of which you can check out at my YouTube and Instagram!</p>
+
+									<h3><strong><u>Q&A:</u></strong></h3>
+										<p><i>What's your ethnicity/race?</i></p>
+											<ul>Korean</ul>
+										<p><i>Mbti?</i></p>
+											<ul>I fluctuate between INTJ, ENTJ, INFJ, and ENFJ.</ul>
+										<p><i>Favorite artist/album/genre?</i></p>
+											<ul>NewJeans and 80s-90s hiphop/jackswing</ul>
+										<p><i>When's your next YouTube video?</i></p>
+											<ul>As soon as I get another spark of inspiration...</ul>
+								<ul class="actions">
+									<li><a onclick="closeAboutMe()" class="button">Nice to meet you!</a></li>
+								</ul>
+							</div>
+						</dialog>
+
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Recent Work</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/Habitualize.png" class="image fit thumb"><img src="images/Habitualize.png" alt="" /></a>
+								<h3><a href="https://docs.google.com/document/d/1oxVSRtuYqnwuQ0DZxgLrbrbEZe0nERQcTFfFD8WHmS0/edit?usp=share_link" target="_blank">The Life Tracker</a></h3>
+								<p>Helping myself and other people become better humans.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/rumad-api.jpg" class="image fit thumb"><img src="images/rumad-api.jpg" alt="" /></a>
+								<h3><a href="https://github.com/ayushp0728/rumadapi/tree/kevin" target="_blank">RU Study Resources</a></h3>
+								<p>RUMAD Accelerator Project.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://youtu.be/OQxisdL_lWo?si=HtUOYGkuQw5Utmrz" class="image fit thumb"><img src="images/ThePhysicsOfFlight.png" alt="" /></a>
+								<h3><a href="https://youtu.be/OQxisdL_lWo?si=HtUOYGkuQw5Utmrz" target="_blank">The Physics of Flight</a></h3>
+								<p>Submission for the oxyGEN scholarship.</p>
+							</article>
+                            <!--
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+								<h3>Quam neque phasellus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+								<h3>Nunc enim commodo aliquet</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+								<h3>Risus ornare lacinia</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+                            -->
+						</div>
+
+						<!--
+						<ul class="actions">
+							<li><a href="#" class="button">All My Projects</a></li>
+						</ul>
+						-->
+
+					</section>
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<p>Business inquiries can be sent by emailing hanmatthewj@gmail.com. Otherwise,
+                            feel free to contact me through my socials found on the left!
+                        </p>
+						<!--
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										Matthew Han<br />
+										- <br />
+                                        -<br />
+										United States
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										908-312-____
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#">matthew____@gmail.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						-->
+
+					</section>
+
+                </div>
+
+                <!-- Footer -->
+                    <footer id="footer">
+                        <div class="inner">
+                            <ul class="icons">
+                                <li><a href="https://www.instagram.com/matthewjhan/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/matthewjaeyounghan/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                <li><a href="https://github.com/matthewjaeyounghan/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                                <li><a href="https://www.youtube.com/@matthewjhan/" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+                            </ul>
+                            <ul class="copyright">
+                                <li>&copy; 2025 Matthew Han.</li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&#127793<a href="matthewjaeyounghan.github.io"></a></li>
+                            </ul>
+                        </div>
+                    </footer>
+        
+                <!-- Scripts -->
+                    <script src="js/jquery.min.js"></script>
+                    <script src="js/jquery.poptrox.min.js"></script>
+                    <script src="js/browser.min.js"></script>
+                    <script src="js/breakpoints.min.js"></script>
+                    <script src="js/util.js"></script>
+                    <script src="js/main.js"></script>
+					<script src="js/modals.js"></script>
+        
+            </body>
+        </html>
+         </div>
 </html>
