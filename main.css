@@ -3220,55 +3220,15 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 480px) {
-		dialog{
-			padding: 0;
-			width: 80%;
-			height: fit-content;
-			border: 0;
-			border-radius: 7px;
-			box-shadow: 0 0 1em rgb(0 0 0 / .5);
-			border-color: white;
-			animation: slide-up 0.5s forwards, fade-in 0.5s forwards;
-		}
-	}
-
-	@media screen and (max-width: 980px) {
-		dialog{
-			padding: 0;
-			width: 80%;
-			height: fit-content;
-			border: 0;
-			border-radius: 7px;
-			box-shadow: 0 0 1em rgb(0 0 0 / .5);
-			border-color: white;
-			animation: slide-up 0.5s forwards, fade-in 0.5s forwards;
-		}
-	}
-
-	@media screen and (max-width: 1400px), (orientation: portrait) {
-		dialog{
-			padding: 0;
-			width: 80%;
-			height: fit-content;
-			border: 0;
-			border-radius: 7px;
-			box-shadow: 0 0 1em rgb(0 0 0 / .5);
-			border-color: white;
-			animation: slide-up 0.5s forwards, fade-in 0.5s forwards;
-		}
-	}
-	@media screen and (max-width: 1800px) {
-		dialog{
-			padding: 0;
-			width: 40%;
-			height: fit-content;
-			border: 0;
-			border-radius: 7px;
-			box-shadow: 0 0 1em rgb(0 0 0 / .5);
-			border-color: white;
-			animation: slide-up 0.5s forwards, fade-in 0.5s forwards;
-		}
+	dialog{
+		padding: 0;
+		width: 60%;
+		height: fit-content;
+		border: 0;
+		border-radius: 7px;
+		box-shadow: 0 0 1em rgb(0 0 0 / .5);
+		border-color: white;
+		animation: slide-up 0.5s forwards, fade-in 0.5s forwards;
 	}
 
 	dialog[open]::backdrop {

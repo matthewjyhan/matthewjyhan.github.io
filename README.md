@@ -1,3 +1,4 @@
-My personal portfolio page hosted through github pages.
+My personal portfolio page hosted through Github pages.
 
-HTML, CSS, JavaScript
+Technologies used: HTML, CSS, JavaScript
+Design credits: HTML5 UP
