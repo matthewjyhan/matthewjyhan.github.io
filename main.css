@@ -2904,7 +2904,7 @@ input, select, textarea {
 			text-align: center;
 			top: 0;
 			width: 4em;
-			z-index: 1500;
+			z-index: 5;
 		}
 
 			.poptrox-popup .closer:before {
@@ -2942,7 +2942,7 @@ input, select, textarea {
 		.poptrox-popup:hover .nav-next,
 		.poptrox-popup:hover .nav-previous {
 			opacity: 0.5;
-			z-index: 1500;
+			z-index: 2;
 		}
 
 			.poptrox-popup:hover .nav-next:hover,
@@ -2952,7 +2952,7 @@ input, select, textarea {
 
 		.poptrox-popup:hover .closer {
 			opacity: 0.5;
-			z-index: 1502;
+			z-index: 1500;
 		}
 
 			.poptrox-popup:hover .closer:hover {
