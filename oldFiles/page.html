@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matthew Han – Tech Creator</title>
+<style>
+  :root {
+    --bg-color: #fff;
+    --text-color: #333;
+    --accent: #08a4f8;
+    --font: Helvetica, Arial, sans-serif;
+  }
+  body {
+    margin:0;
+    font-family: var(--font);
+    color:var(--text-color);
+    background:var(--bg-color);
+    line-height:1.6;
+  }
+  .container {
+    max-width:700px;
+    margin:2rem auto;
+    padding:0 1rem;
+  }
+  header, footer {
+    text-align:center;
+    margin-bottom:2rem;
+  }
+  h1 {
+    margin-bottom:0.5rem;
+  }
+  .bio {
+    font-style: italic;
+  }
+  section {
+    margin-bottom:2rem;
+  }
+  .gear-list, .projects {
+    list-style:none;
+    padding:0;
+  }
+  .gear-list li {
+    margin-bottom:0.5rem;
+  }
+  .btn {
+    display:inline-block;
+    margin-top:1rem;
+    padding:0.6rem 1.2rem;
+    background:var(--accent);
+    color:white;
+    text-decoration:none;
+    border-radius:4px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Your Name</h1>
+      <p class="bio">Your average [describe yourself] from [location], documenting [purpose]. Currently at [subscribers] subscribers.</p>
+    </header>
+
+    <section id="latest">
+      <h2>Latest Video</h2>
+      <!-- embed YouTube -->
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0"
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="gear">
+      <h2>Setup & Gear</h2>
+      <ul class="gear-list">
+        <li>🖥️ MacBook Pro 16″ – 48 GB RAM, 1 TB SSD</li>
+        <li>🖥️ GIGABYTE M27QX 27″ 240 Hz</li>
+        <li>Desk: Flexispot EC4</li>
+        <li>Chair: Steelcase Leap V2</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="projects">
+        <li><strong>Forum App:</strong> Users can post/search sneaker-related threads (React, Node.js, Supabase)</li>
+        <li><strong>Spotify Dashboard:</strong> Data dashboard using Spotify API</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Let’s Chat</h2>
+      <p>Want to talk? <a href="#contact-form" class="btn">Schedule a 15 min chat</a></p>
+      <form id="contact-form" action="#" method="POST">
+        <label>Name:<br><input type="text" name="name" required></label><br><br>
+        <label>Email:<br><input type="email" name="email" required></label><br><br>
+        <label>Message:<br><textarea name="message" rows="4" required></textarea></label><br><br>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 [Your Name]. Built with ❤️.</p>
+    </footer>
+  </div>
+</body>
+</html>
