@@ -227,12 +227,15 @@ input, select, textarea {
 	/* Set your background with this */
 
 		background: #348cb2 url("images/bg2.jpg") bottom left;
-		background-repeat: repeat-x;
-		height: 100%;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100vw;
 		left: 0;
 		opacity: 1;
 		position: fixed;
 		top: 0;
+		background-size: cover;
+		background-position: center center;
 	}
 
 	@-moz-keyframes bg {
@@ -299,10 +302,10 @@ input, select, textarea {
 		}
 	}
 
-	#bg {
+	/* #bg {
 		background-size: 2250px auto;
 		width: 6750px;
-	}
+	} */
 
 /* Overlay */
 
@@ -827,10 +830,11 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
+		/* #bg {
 			background-size: 1500px auto;
 			width: 4500px;
-		} }
+		}  */
+	}
 
 /* Normal */
 
@@ -909,10 +913,11 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
+		/* #bg {
 			background-size: 750px auto;
 			width: 2250px;
-		} }
+		}  */
+	}
 
 /* Mobile */
 
@@ -995,10 +1000,10 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
+		/* #bg {
 			background-size: 300px auto;
 			width: 900px;
-		}
+		} */
 
 	/* Header */
 
@@ -1093,10 +1098,10 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
+		/* #bg {
 			background-size: 412.5px auto;
 			width: 1237.5px;
-		}
+		} */
 
 	/* Header */
 
